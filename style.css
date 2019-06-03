@@ -1,0 +1,94 @@
+
+/*css for login form */
+#login-form{ 
+border: 3px; 
+padding:9px 9px;
+ width:300px; 
+ border-radius:5px; 
+}
+/*image css*/
+.img-responsive {
+	width: 100%;
+}
+.img-responsive-1{
+	width: 50%;
+	height: 50%;
+}
+
+/*CSS necessary for page display*/
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+#wrapper-detail{
+	  padding-left: 250px;
+
+    background: lightgray;
+}
+#page-content-wrapper {
+  width: 100%;
+}
+#page-content-wrapper-display {
+  width: 100%;
+	margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.navbar-display{
+  margin-bottom: 0px;
+}
+.priceDisplay{
+  position: absolute; top: 40%; right: 20px; text-align:center;font-size: 14px;color: red;background-color: blue;z-index: 1 
+}
+.layoutBackground{
+  background-color: darkgray; margin: 3px
+}
+.display{
+  width: 100%;
+   margin-top: 20px;
+   background-color: darkgray;
+   margin-bottom: 20px
+}
+.display tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*sidebar CSS*/
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+#car-detail-title{
+	text-align: center;
+}
+.carInfo{
+	position: relative;
+    background-color: darkgrey;
+    top: -11px;
+    left: 0px;
+    right: 15px;
+    color: black;
+}
+.details{
+	color: black;
+}
+.detailsBox{
+	background: white;
+}
