@@ -1,4 +1,7 @@
-CREATE DATABASE gratis;
+DROP DATABASE `gratis_2`;
+CREATE DATABASE `gratis_2`;
+
+USE gratis_2;
 
 CREATE TABLE `user_accounts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
